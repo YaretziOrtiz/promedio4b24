@@ -40,3 +40,4 @@ public class PromedioGrupo {
         System.out.println("El promedio del grupo es: " + promedio);
     }
 }
+
