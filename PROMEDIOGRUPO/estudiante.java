@@ -61,9 +61,10 @@ public class estudiante {
     public double getPromedio() {
     return promedio;
     }
-    public void setPromedio(double promedio) {
-    this.promedio = promedio;
+    public void setPromedio() {
+    this.promedio = (this.estructuras + this.evaluacion + this.ingles) / 3;
     }
+
     @Override
     public String toString() {
         return "estudiante [matricula=" + matricula + ", nombre=" + nombre + ", promedio=" + promedio + "]";
